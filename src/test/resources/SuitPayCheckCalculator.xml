@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="TestSuite">
+    <test name="PayCheckCalculator">
+        <groups>
+            <run>
+                <include name="regression"/>
+                <include name="p1"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="PayCheckCalculator"/>
+        </classes>
+    </test>
+</suite>
